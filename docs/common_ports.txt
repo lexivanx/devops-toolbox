@@ -1,0 +1,36 @@
+20 - FTP data (active mode)
+21 - FTP control
+22 - SSH / SFTP
+23 - Telnet
+25 - SMTP
+53 - DNS
+80 - HTTP
+88 - Kerberos
+110 - POP3
+111 - NFS
+123 - NTP
+137 - SMB
+138 - SMB
+139 - SMB
+143 - IMAP
+161 - SNMP queries
+162 - SNMP traps
+443 - HTTPS
+445 - SMB
+389 - LDAP
+636 - LDAPS (with TLS)
+993 - IMAP (with TLS)
+995 - POP3 (with TLS)
+1433 - Microsoft SQL
+1521 - Oracle
+2049 - NFS
+3306 - MySQL
+3389 - RDP
+5432 - PostgreSQL
+5672 - RabbitMQ
+6379 - Redis
+9042 - Apache Cassandra
+9200 - Elasticsearch
+11211 - Redis
+15672 - RabbitMQ
+27017 - Mongo
