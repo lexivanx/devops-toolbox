@@ -17,3 +17,7 @@ telnet -v -w 5 {host} {port}
 # netcat
 ## -z   === scan for listening daemons w/o sending data
 nc -vz -w 5 {hort} {port}
+
+# openvpn
+## connect to a vpn - no terminal log output and as a background process
+openvpn --config ~/.openvpn/some_vpn_config.ovpn > /dev/null 2>&1 &
